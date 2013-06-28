@@ -4,7 +4,7 @@
   <title><g:layoutTitle></g:layoutTitle></title>
     <g:layoutHead/>
     <r:layoutResources/>
-    <link type="text/css" rel="stylesheet" href="${resource( dir: "css", file:"styles.css")}" />
+    <link type="text/css" rel="stylesheet" href="${resource( dir: "css", file:"styles_admin.css")}" />
 </head>
 <body>
 <g:layoutBody/>
