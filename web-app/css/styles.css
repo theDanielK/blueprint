@@ -48,6 +48,8 @@ footer div.footer_social {
 footer div.footer_social > ul > li {
     float: left;
     list-style: none;
+    width:30px;
+    height:30px;
 }
 
 .clearfix {
