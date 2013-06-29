@@ -25,12 +25,26 @@ nav > ul > li {
     list-style: none;
 }
 
+nav > ul > li > div.nav_search {
+    background-image: url('/images/nav_search_bar.png');
+    width: 169px;
+    height: 44px;
+}
+
 #nav_sheen {
     width: 30px;
     position:absolute;
     top: 21px;
     left: 3px;
     pointer-events:none;
+}
+
+#nav_search_input {
+    position: absolute;
+    right: 21px;
+    width: 121px;
+    top: 29px;
+    background: none;
 }
 
 footer {

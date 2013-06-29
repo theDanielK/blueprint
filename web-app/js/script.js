@@ -11,6 +11,14 @@ $(document).ready(function(){
         $('#nav_sheen').animate({left: 21}, 300, 'swing');
     });
 
+    $('#nav_search_input').on('focus', function(){
+        $('div.nav_search').css('background-image', "url('/images/nav_search_bar_focus.png')");
+    });
+    $('#nav_search_input').on('blur', function(){
+        $('div.nav_search').css('background-image', "url('/images/nav_search_bar.png')")
+        $(this).val('');
+    });
+
     //Footer
     $('.footer_social ul a img').on('mouseover', function(){
         $(this).animate({width: '30', height: '30'}, 200);

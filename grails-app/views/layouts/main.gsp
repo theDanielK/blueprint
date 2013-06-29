@@ -29,8 +29,11 @@
             <li><a href="#" class="nav_sheen"><img src="${resource(dir: 'images', file: 'nav_what_we_do.png')}"/></a></li>
             <li><a href="#" class="nav_sheen"><img src="${resource(dir: 'images', file: 'nav_what_weve_done.png')}"/></a></li>
             <li><a href="#" class="nav_sheen"><img src="${resource(dir: 'images', file: 'nav_where_we_hang_out.png')}"/></a></li>
-            <li><div><img src="${resource(dir: 'images', file: 'nav_search_bar.png')}"/></div></li>
+            <li><div class="nav_search"></div></li>
         </ul>
+        <form action="#" id="nav_search_form">
+            <input type="text" id="nav_search_input" name="nav_search" />
+        </form>
     </nav>
 
     <div class="clearfix"></div>

@@ -2,6 +2,10 @@ package blueprint
 
 class AdminController {
 
+    def index (){
+        redirect(action: 'login');
+    }
+
     def login() {
         //TODO: if the user has already logged in, don't force them to do so again
           /*if(session.userLoggedIn){
